@@ -7,10 +7,10 @@
   box-shadow: 5px 5px 10px #161616, -5px -5px 10px #343434;
   padding: 30px;
   border-radius: 20px;
+  margin-bottom: 3rem;
 }
 
 .container h1 {
-  margin-bottom: 3rem;
   user-select: none;
 }
 
@@ -26,4 +26,18 @@
 .counterContainer > span {
   font-size: 2rem;
   user-select: none;
+}
+
+.quoteContainer {
+  margin-bottom: 2rem;
+}
+
+.quoteContainer blockquote {
+  font-style: italic;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.quoteContainer figcaption {
+  text-align: right;
 }
