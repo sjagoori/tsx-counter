@@ -1,0 +1,17 @@
+.container {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #272727;
+  box-shadow: 12px 12px 24px #101010, -12px -12px 24px #3e3e3e;
+}
+
+.container span {
+  display: block;
+  font-size: 1.5rem;
+  user-select: none;
+}
